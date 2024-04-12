@@ -1,0 +1,10 @@
+#configured data for RegisterPage
+url = https://tutorialsninja.com/demo/
+firstname = Krimo
+lastname = nait
+email = Mimichenait@gmail.com
+telephone = 2546379810
+password = Mimichenait01
+confirmPassword = Mimichenait01
+#warningMessagesRegisterPage
+privacyPolicyWarningMessage= Warning: You must agree to the Privacy Policy!

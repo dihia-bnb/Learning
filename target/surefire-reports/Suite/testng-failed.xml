@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Day16.Register">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Day16.Register -->
+      <class name="Day16.DataProviderTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Day16.DataProviderTest -->
+      <class name="Day16.Utility">
+        <methods>
+          <include name="registerTest"/>
+        </methods>
+      </class> <!-- Day16.Utility -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Day18WaitBrowserOpetion.Hindling_Frames">
+      <class name="Day23_Collection_Framwork.Assignment">
         <methods>
-          <include name="manageingFrames"/>
+          <include name="assignment3"/>
         </methods>
-      </class> <!-- Day18WaitBrowserOpetion.Hindling_Frames -->
+      </class> <!-- Day23_Collection_Framwork.Assignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

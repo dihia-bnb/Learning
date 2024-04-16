@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="password" value="Mimichenait01"/>
-    <parameter name="firstname" value="Krimo"/>
-    <parameter name="confirmpasswordR" value="Minichenait01"/>
-    <parameter name="telephone" value="123456789"/>
-    <parameter name="passwordR" value="Mimichenait01"/>
-    <parameter name="url" value="https://tutorialsninja.com/demo"/>
-    <parameter name="email" value="mimichenait@gmail.com"/>
-    <parameter name="lastname" value="Nait"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Day17_Read_FromExcelSheet.TestCase">
+      <class name="Day23_Collection_Framwork.Assignment">
         <methods>
-          <include name="RegisterTNTest" invocation-numbers="0 1 2 3 4 5 6 7"/>
-          <include name="tearDown"/>
+          <include name="assignment3"/>
         </methods>
-      </class> <!-- Day17_Read_FromExcelSheet.TestCase -->
+      </class> <!-- Day23_Collection_Framwork.Assignment -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
